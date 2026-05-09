@@ -3,7 +3,6 @@ import json
 import random
 from temp_mail import TempMail
 import re
-import pyfiglet
 import os
 import webbrowser
 
@@ -324,8 +323,6 @@ def GetInfo(name, key):
 
 
 def print_logo():
-    print(pyfiglet.figlet_format("Drlooder", "big"))
-
     print("""
     [+] Made by Drlooder
     [+] For more tools Github: https://github.com/Drlooder
